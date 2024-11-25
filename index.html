@@ -2,7 +2,7 @@
 <html lang="en" class="h-100 w-100">
 
 <head>
-    <title>Bảo & Trang - Wedding Invitation</title>
+    <title mongon="title"></title>
 
     <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
@@ -76,13 +76,13 @@
                 <div id="navbar" class="collapse navbar-collapse justify-content-lg-center">
                     <ul class="navbar-nav pt-3 pt-lg-0">
                         <li class="nav-item me-3">
-                            <a class="nav-link page-scroll" href="#the-couple">Chúng Mình Nè</a>
+                            <a class="nav-link page-scroll" href="#the-couple" mongon="navigation_0"></a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link page-scroll" href="#the-wedding-event">Sự Kiện</a>
+                            <a class="nav-link page-scroll" href="#the-wedding-event" mongon="navigation_1"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#love-story">Câu Chuyện</a>
+                            <a class="nav-link page-scroll" href="#love-story" mongon="navigation_2"></a>
                         </li>
                     </ul>
 
@@ -93,13 +93,13 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item me-3">
-                            <a class="nav-link page-scroll" href="#photos">Album</a>
+                            <a class="nav-link page-scroll" href="#photos" mongon="navigation_3"></a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link page-scroll" href="#wedding-gifts">Lời Nhắn</a>
+                            <a class="nav-link page-scroll" href="#wedding-gifts" mongon="navigation_4"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#rsvp">Thông Tin</a>
+                            <a class="nav-link page-scroll" href="#rsvp" mongon="navigation_5"></a>
                         </li>
                     </ul>
                 </div>
@@ -120,7 +120,7 @@
         <div class="container">
             <div class="row g-0 justify-content-center justify-content-lg-start">
                 <div class="col-md-9 col-lg-6 col-xl-5 bg-white px-4 py-5 position-relative rounded shadow">
-                    <h5 class="font-alt fw-bold lh-1 mb-3 text-center">Chúng mình cưới</h5>
+                    <h5 class="font-alt fw-bold lh-1 mb-3 text-center" mongon="introduction_heading"></h5>
                     <span class="section-divider divider-secondary"></span>
 
                     <div class="img-clip-path clip-hero position-relative">
@@ -129,14 +129,14 @@
                     <!-- //.img-clip-path -->
 
                     <div class="align-items-center d-flex justify-content-center mb-2">
-                        <h2 class="font-alt fw-bold m-0">Gia Bảo</h2>
+                        <h2 class="font-alt fw-bold m-0" mongon="introduction_bride"></h2>
                         <span class="icon-svg icon-svg-lg mx-2"><img src="img/icon-wedding-ampersand.svg" alt=""></span>
-                        <h2 class="font-alt fw-bold m-0">Thuỳ Trang</h2>
+                        <h2 class="font-alt fw-bold m-0" mongon="introduction_groom"></h2>
                     </div>
                     <!-- //.align-items-center -->
 
-                    <p class="fs-5 text-center text-muted">14.07.2024</p>
-                    <p class="fs-5 text-center text-muted">Rất vui được mời bạn tham dự lễ thành hôn của chúng mình</p>
+                    <p class="fs-5 text-center text-muted" mongon="introduction_date"></p>
+                    <p class="fs-5 text-center text-muted" mongon="introduction_invitation"></p>
 
                     <!-- Ornament -->
                     <img width="100" src="img/ornament-divider.png" alt="" class="d-block mx-auto">
@@ -176,20 +176,18 @@
                                 data-aos-duration="900" data-aos-delay="190">
                                 <img class="img-fluid" src="images/the-couple-1.webp" alt="">
                                 <span
-                                    class="bg-secondary bottom-0 end-0 font-alt fst-italic m-3 position-absolute px-3 py-2 rounded text-white">Cô
-                                    Dâu</span>
+                                    class="bg-secondary bottom-0 end-0 font-alt fst-italic m-3 position-absolute px-3 py-2 rounded text-white"
+                                    mongon="about_us_bride_title"></span>
                             </div>
                             <!-- //.bg-white -->
                         </div>
                         <!-- //.col-md-6 -->
 
                         <div class="col-md-6 text-center text-md-start">
-                            <h5 class="font-alt fw-bold text-uppercase">Thuỳ Trang</h5>
+                            <h5 class="font-alt fw-bold text-uppercase" mongon="about_us_bride_name"></h5>
                             <p class="font-alt fst-italic text-muted">Cô Dâu xinh xắn</p>
                             <hr class="border-secondary mx-auto mx-md-0 sep-line">
-                            <p class="m-0">Cô dâu xinh đẹp rạng ngời trong tà áo trắng tinh khôi, lộng lẫy, nụ cười rạng
-                                rỡ, ánh
-                                mắt hạnh phúc toát lên vẻ đẹp dịu dàng, thanh tao.</p>
+                            <p class="m-0" mongon="about_us_bride_description"></p>
                         </div>
                         <!-- //.col-md-6 -->
                     </div>
@@ -206,21 +204,18 @@
                                 data-aos-duration="900" data-aos-delay="190">
                                 <img class="img-fluid" src="images/the-couple-2.webp" alt="">
                                 <span
-                                    class="bg-secondary bottom-0 end-0 font-alt fst-italic m-3 position-absolute px-3 py-2 rounded text-white">Chú
-                                    Rể</span>
+                                    class="bg-secondary bottom-0 end-0 font-alt fst-italic m-3 position-absolute px-3 py-2 rounded text-white"
+                                    mongon="about_us_groom_title"></span>
                             </div>
                             <!-- //.bg-white -->
                         </div>
                         <!-- //.col-md-6 -->
 
                         <div class="col-md-6 text-center text-md-start">
-                            <h5 class="font-alt fw-bold text-uppercase">Gia Bảo</h5>
+                            <h5 class="font-alt fw-bold text-uppercase" mongon="about_us_groom_name"></h5>
                             <p class="font-alt fst-italic text-muted">Chú Rể điển trai</p>
                             <hr class="border-secondary mx-auto mx-md-0 sep-line">
-                            <p class="m-0">Chú rể bảnh bao, lịch lãm trong bộ veston đen,
-                                nụ cười rạng rỡ, ánh mắt tự tin thể hiện sự hạnh phúc và niềm hân hoan trong ngày trọng
-                                đại.
-                                Vẻ ngoài nam tính, phong độ của chú rể thu hút mọi ánh nhìn.</p>
+                            <p class="m-0" mongon="about_us_groom_description"></p>
                         </div>
                         <!-- //.col-md-6 -->
                     </div>
@@ -252,24 +247,20 @@
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-5 mb-lg-0" data-aos="zoom-in-up" data-aos-duration="900"
                     data-aos-delay="190">
                     <div class="bg-white h-100 p-5 rounded shadow">
-                        <h3 class="font-alt fs-4 fw-bold text-uppercase">Lễ Thành hôn</h3>
+                        <h3 class="font-alt fs-4 fw-bold text-uppercase" mongon="events_0_title"></h3>
                         <hr class="border-secondary sep-line">
-                        <p class="mb-4">Lễ thành hôn của chúng mình được tổ chức ở tư gia của 2 bên gia đình trong sự
-                            chúc phúc của gia đình và những người bạn thân thiết </p>
+                        <p class="mb-4" gon="events_0_description"></p>
 
                         <div class="align-items-center d-flex mb-3">
                             <span class="icon-svg me-4"><img src="img/icon-wedding-calendar.svg" alt=""></span>
-                            <span>
-                                Chủ Nhật, ngày 14 tháng 07, 2024<br>
-                                07:30 - 10:30
+                            <span mongon="events_0_date">
                             </span>
                         </div>
                         <!-- //.align-items-center -->
 
                         <div class="align-items-center d-flex mb-4">
                             <span class="icon-svg me-4"><img src="img/icon-wedding-arch.svg" alt=""></span>
-                            <span>Nhà riêng của chúng mình<br>
-                                Phước Lộc, Tuy Phước, Bình Định
+                            <span mongon="events_0_location">
                             </span>
                         </div>
                         <!-- //.align-items-center -->
@@ -288,25 +279,20 @@
                 <div class="col-md-9 col-lg-6 col-xl-5" data-aos="zoom-in-up" data-aos-duration="900"
                     data-aos-delay="190">
                     <div class="bg-white h-100 p-5 rounded shadow">
-                        <h3 class="font-alt fs-4 fw-bold text-uppercase">Tiệc nhà trai</h3>
+                        <h3 class="font-alt fs-4 fw-bold text-uppercase" mongon="events_1_title"></h3>
                         <hr class="border-secondary sep-line">
-                        <p class="mb-4">Thân mời người thân, anh chị em, đồng nghiệp và tất cả bạn bè đến dự buổi tiệc
-                            thân mật của
-                            chúng mình</p>
+                        <p class="mb-4" mongon="events_1_description"></p>
 
                         <div class="align-items-center d-flex mb-3">
                             <span class="icon-svg me-4"><img src="img/icon-wedding-calendar.svg" alt=""></span>
-                            <span>
-                                Chủ Nhật, ngày 14 tháng 07, 2024<br>
-                                Đón khách 17:30 - Khai tiệc 18:00
+                            <span mongon="events_1_date">
                             </span>
                         </div>
                         <!-- //.align-items-center -->
 
                         <div class="align-items-center d-flex mb-4">
                             <span class="icon-svg me-4"><img src="img/icon-wedding-cake.svg" alt=""></span>
-                            <span>Nhà Hàng Hoàng Long Palace<br>
-                                Ngã 3 Cầu Ông Đô, TT. Diêu Trì, Tuy Phước, Bình Định
+                            <span mongon="events_1_location">
                             </span>
                         </div>
                         <!-- //.align-items-center -->
@@ -325,25 +311,20 @@
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-5 mb-lg-0" data-aos="zoom-in-up" data-aos-duration="900"
                     data-aos-delay="190">
                     <div class="bg-white h-100 p-5 rounded shadow">
-                        <h3 class="font-alt fs-4 fw-bold text-uppercase">Tiệc nhà gái</h3>
+                        <h3 class="font-alt fs-4 fw-bold text-uppercase" mongon="events_2_title"></h3>
                         <hr class="border-secondary sep-line">
-                        <p class="mb-4">Thân mời người thân, anh chị em, đồng nghiệp và tất cả bạn bè đến dự buổi tiệc
-                            thân mật của
-                            chúng mình</p>
+                        <p class="mb-4" mongon="events_2_description"></p>
 
                         <div class="align-items-center d-flex mb-3">
                             <span class="icon-svg me-4"><img src="img/icon-wedding-calendar.svg" alt=""></span>
-                            <span>
-                                Thứ 7, ngày 13 tháng 07, 2024<br>
-                                Đón khách 17:30 - Khai tiệc 18:00
+                            <span mongon="events_2_date">
                             </span>
                         </div>
                         <!-- //.align-items-center -->
 
                         <div class="align-items-center d-flex mb-4">
                             <span class="icon-svg me-4"><img src="img/icon-wedding-arch.svg" alt=""></span>
-                            <span>Nhà Hàng Hai Lúa<br>
-                                Gần Uy Ban Xã Phước Lộc, Tuy Phước, Bình Định
+                            <span mongon="events_2_location">
                             </span>
                         </div>
                         <!-- //.align-items-center -->
@@ -359,42 +340,6 @@
                 </div>
                 <!-- //.col-md-9 -->
 
-                <div class="col-md-9 col-lg-6 col-xl-5" data-aos="zoom-in-up" data-aos-duration="900"
-                    data-aos-delay="190">
-                    <div class="bg-white h-100 p-5 rounded shadow">
-                        <h3 class="font-alt fs-4 fw-bold text-uppercase">Tiệc báo hỷ</h3>
-                        <hr class="border-secondary sep-line">
-                        <p class="mb-4">Thân mời người thân, anh chị em, đồng nghiệp và tất cả bạn bè đến dự buổi tiệc
-                            thân mật của
-                            chúng mình</p>
-
-                        <div class="align-items-center d-flex mb-3">
-                            <span class="icon-svg me-4"><img src="img/icon-wedding-calendar.svg" alt=""></span>
-                            <span>
-                                Thứ 7, ngày 20 tháng 07, 2024<br>
-                                Đón khách 18:00 - Khai tiệc 19:00
-                            </span>
-                        </div>
-                        <!-- //.align-items-center -->
-
-                        <div class="align-items-center d-flex mb-4">
-                            <span class="icon-svg me-4"><img src="img/icon-wedding-cake.svg" alt=""></span>
-                            <span>Trung Tâm Hội Nghị & Tiệc Cưới Le Jardin - Sảnh PEONY<br>
-                                195 Quốc Lộ 13, P. Hiệp Bình Chánh, Thủ Đức, HCM
-                            </span>
-                        </div>
-                        <!-- //.align-items-center -->
-
-                        <div class="d-flex">
-                            <a href="https://maps.app.goo.gl/p8sfzh1jDXPSCZYS6"
-                                class="page-scroll btn border-0 fs-9 ls-1 text-decoration-underline"
-                                target="_blank">View Map</a>
-                        </div>
-                        <!-- //.d-flex -->
-                    </div>
-                    <!-- //.bg-white -->
-                </div>
-                <!-- //.col-md-9 -->
             </div>
             <!-- //.row -->
         </div>
@@ -431,12 +376,10 @@
                         <!-- //.col-md-8 -->
 
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h4 class="font-alt">Chuyến Du Lịch Đầu Tiên Của Chúng Mình</h4>
+                            <h4 class="font-alt" mongon="love_story_0_title"></h4>
                             <hr class="border-secondary mx-auto mx-lg-0 sep-line">
-                            <p>Đây là chuyến du lịch đầu tiên của chúng mình, cả 2 chúng mình điều yêu thích không khí
-                                mùa đông nên chúng mình đã chọn Đà Lạt là nơi để lưu giữ kỷ niệm của bọn mình.</p>
-                            <p class="m-0">Người ta hay bảo đi Đà Lạt về sẽ chia tay nhưng cuộc hành trình của chúng
-                                mình đã có một kết thúc hạnh phúc, hạnh phúc cho bây giờ và cả về sau nữa.</p>
+                            <p mongon="love_story_0_description"></p>
+                            <p class="m-0" mongon="love_story_0_description_1"></p>
                         </div>
                         <!-- //.col-lg-6 -->
                     </div>
@@ -453,15 +396,11 @@
                         <!-- //.col-md-8 -->
 
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h4 class="font-alt">Những Cuộc Hẹn Của Chúng Mình</h4>
+                            <h4 class="font-alt" mongon="love_story_1_title"></h4>
                             <hr class="border-secondary mx-auto mx-lg-0 sep-line">
-                            <p>Cũng giống như các cặp đôi khác những cuộc hẹn của chúng mình sẽ là đi ăn, đi uống,
-                                đi xem phim và nghe nhạc chùng nhau. Nhưng có 1 số hôm bọn mình chỉ đi dạo các con đường
-                                ở thành phố để kể những chuyện đã trải qua cho nhau nghe và tranh luận về 1 điều gì đó.
+                            <p mongon="love_story_1_description">
                             </p>
-                            <p class="m-0">Đó, mọi người thấy không đôi khi những điều đơn giản nhất sẽ làm cho tình yêu
-                                của chúng ta
-                                ngày càng trở nên gắn kết hơn.
+                            <p class="m-0" mongon="love_story_1_description_1">
                             </p>
                         </div>
                         <!-- //.col-lg-6 -->
@@ -479,16 +418,10 @@
                         <!-- //.col-md-8 -->
 
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h4 class="font-alt">Chúng Mình Bên Nhau 3 Năm 9 Tháng Đến Khi Kết Hôn</h4>
+                            <h4 class="font-alt" mongon="love_story_2_title"></h4>
                             <hr class="border-secondary mx-auto mx-lg-0 sep-line">
-                            <p>Khoảng thời gian chúng mình bên nhau có rất nhiều cung bậc cảm xúc, vui có, buồn có, cãi
-                                vã có.
-                                Nhưng trong tình yêu, chúng ta cần cho nhau thời gian để tìm hiểu, chia sẻ với nhau,
-                                cùng nhau trải qua
-                                khoảng thời gian này để ngày càng hiểu cho nhau hơn.</p>
-                            <p class="m-0">Không có câu chuyện tình yêu nào màu hồng, mà chính chúng mình đã tìm các xây
-                                dựng 1 hành trình bên nhau
-                                đầy sự thông cảm, chia sẻ để có được 1 câu chuyện viết lên cho mọi người ngày hôm nay.
+                            <p mongon="love_story_2_description"></p>
+                            <p class="m-0" mongon="love_story_2_description_1">
                             </p>
                         </div>
                         <!-- //.col-lg-6 -->
@@ -506,16 +439,10 @@
                         <!-- //.col-md-8 -->
 
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h4 class="font-alt">Và Chúng Mình Đính Hôn</h4>
+                            <h4 class="font-alt" mongon="love_story_3_title"></h4>
                             <hr class="border-secondary mx-auto mx-lg-0 sep-line">
-                            <p> Ngày 24.04.2024 là một ngày đặc biệt với chúng mình. Bọn mình ĐÍNH HÔN đánh dấu cột mốc
-                                quan
-                                trọng trong hành trình yêu của chúng mình chính thức bước sang một trang mới. Bên nhau
-                                từ đây,
-                                cùng nhau vun đắp tổ ấm hạnh phúc, cùng nhau chia sẻ mọi buồn vui trong cuộc sống.</p>
-                            <p class="m-0">Cùng nhau, chúng mình sẽ vượt qua mọi khó khăn, thử thách, và cùng nhau viết
-                                tiếp câu
-                                chuyện tình yêu đẹp đẽ của mình.</p>
+                            <p mongon="love_story_3_description"> </p>
+                            <p class="m-0" mongon="love_story_3_description_1"></p>
                         </div>
                         <!-- //.col-lg-6 -->
                     </div>
@@ -660,7 +587,7 @@
 
             <div class="d-flex justify-content-center">
                 <button id="all-album-btn" type="button" data-bs-toggle="modal" data-bs-target="#full-album-modal"
-                    class="btn fs-9 ls-1 me-3">Xem full album ảnh ở đây nhé 🥰</button>
+                    class="btn fs-9 ls-1 me-3" mongon="photo_album"></button>
             </div>
             <!-- //.d-flex -->
         </div>
@@ -676,24 +603,10 @@
                     <h3 class="font-alt fs-4 fw-bold text-uppercase">Thân Gửi
                     </h3>
                     <hr class="border-secondary sep-line">
-                    <p>Chúng con, xin được gửi lời cảm ơn sâu sắc nhất đến bố mẹ hai bên đã sinh thành, dưỡng dục
-                        và luôn yêu thương, lo lắng cho chúng con. Bố mẹ là chỗ dựa vững chắc, là nguồn động lực to lớn
-                        giúp
-                        chúng con vượt qua mọi khó khăn trong cuộc sống. Con biết ơn sự hy sinh thầm lặng, những lời
-                        khuyên
-                        bảo quý báu và tình yêu thương vô bờ bến mà bố mẹ dành cho chúng con.</p>
-                    <p>Xin cảm ơn các anh chị em, các dì, các chú, các bác, các ông bà hai bên đã đến dự chung vui cùng
-                        gia đình
-                        trong ngày trọng đại này. Sự hiện diện của mọi người là niềm hạnh phúc vô bờ bến đối với chúng
-                        con.</p>
-                    <p>Tụi mình cũng xin gửi lời cảm ơn đến các bạn bè thân thiết, những người bạn đồng nghiệp đã luôn
-                        đồng hành
-                        cùng chúng mình trong suốt quãng đường vừa qua. Những lời chúc mừng, những món quà ý nghĩa và sự
-                        hiện
-                        diện
-                        của các bạn là món quà vô giá đối với tụi mình.</p>
-                    <p class="font-alt fs-5 fst-italic mb-4">"Một lần nữa cảm ơn tất cả những người thân yêu của chúng
-                        mình"</p>
+                    <p mongon="acknowledgments"></p>
+                    <p mongon="acknowledgments1"></p>
+                    <p mongon="acknowledgments2"></p>
+                    <p class="font-alt fs-5 fst-italic mb-4 mongon=" acknowledgments3"></p>
 
                     <!-- Ornament -->
                     <img width="100" src="img/ornament-divider.png" alt="" class="d-block mx-auto">
@@ -715,19 +628,14 @@
                 data-aos-duration="900" data-aos-delay="190">
                 <div class="col-lg-7">
                     <div class="text-center">
-                        <h2 class="font-alt fs-3 fw-bold text-uppercase">Mừng Cưới Chúng Mình</h2>
-                        <p class="font-alt fs-5 fst-italic text-muted">If you have only one smile in you give it to the
-                            people you love.</p>
+                        <h2 class="font-alt fs-3 fw-bold text-uppercase" mongon="bank_title"></h2>
+                        <p class="font-alt fs-5 fst-italic text-muted" mongon="bank_description"></p>
                         <span class="section-divider divider-primary"></span>
                     </div>
                     <!-- //.mb-5 -->
                     <div
                         class="align-items-center d-flex justify-content-center font-alt fs-5 fst-italic text-muted text-center">
-                        <span>
-                            Vietcombank<br>
-                            Truong Thi Thuy Trang<br>
-                            0431000247986<br>
-                            ND: *Ghi tên bạn để chúng mình biết nhé*
+                        <span mongon="bank_info">
                         </span>
                     </div>
                 </div>
