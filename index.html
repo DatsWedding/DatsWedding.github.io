@@ -32,9 +32,17 @@
 
 <body id="page-top" class="h-100 w-100">
     <script>
-        if (window.location.hostname === "103.20.102.103") {
-            window.location.href = "https://baovatrang.com/";
-        }
+        fetch('content.json')
+            .then(response => response.json())
+            .then(data => {
+                const elms = document.querySelectorAll("[mongon]");
+                elms.forEach(elm => {
+                    const key = elm.getAttribute("mongon");
+                    elm.innerHTML = data?.[key];
+                })
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+
     </script>
 
     <!-- Preloader Start -->
