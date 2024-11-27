@@ -39,7 +39,9 @@
                 elms.forEach(elm => {
                     const key = elm.getAttribute("mongon");
                     elm.innerHTML = data?.[key];
-                    elm.style.whiteSpace = "break-spaces";
+                    if (!elm.style.whiteSpace) {
+                        elm.style.whiteSpace = "break-spaces";
+                    };
                 })
             })
             .catch(error => console.error('Error fetching JSON:', error));
@@ -138,7 +140,7 @@
                     <!-- //.img-clip-path -->
 
                     <div class="align-items-center d-flex justify-content-center mb-2">
-                        <h2 class="font-alt fw-bold m-0" style="font-size: 22px;"
+                        <h2 class="font-alt fw-bold m-0" style="white-space: pre; font-size: 22px;"
                             mongon="introduction_bride"></h2>
                         <span class="icon-svg icon-svg-lg mx-2"><img src="img/icon-wedding-ampersand.svg" alt=""></span>
                         <h2 class="font-alt fw-bold m-0" style="white-space: pre; font-size: 22px;"
